@@ -143,5 +143,7 @@ Through this project I learned:
 ## Author
 
 Rajat Tripathi
+
 Electronics Engineering (IoT)
+
 Built as a self-learning project to understand the complete software stack of a quadcopter flight controller from scratch.
