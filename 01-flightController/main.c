@@ -1,3 +1,19 @@
+
+/*
+ * STM32F407 Flight Controller
+ *
+ * Features:
+ * - Register Level Programming
+ * - MPU6050 IMU Interface (I2C)
+ * - Complementary Filter
+ * - Roll/Pitch/Yaw Estimation
+ * - PID Stabilization
+ * - PWM Motor Control (TIM4)
+ *
+ * Author: Rajat Tripathi
+ */
+
+
 #include "stm32f407xx.h"
 #include <stdint.h>
 #include <math.h>
