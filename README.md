@@ -107,19 +107,18 @@ Features implemented:
 ## Repository Structure
 
 STM32-Flight-Controller/
+
+├── flightController/
+│   └── main.c      ← Main Project
 │
-├── Flight_Controller/
+├── uartTransmitCode/
 │   └── main.c
 │
-├── UART_Test/
+├── blinkLedWithRegister/
 │   └── main.c
 │
-├── I2C_Test/
-│   └── main.c
-│
-├── Register_LED_Test/
-│   └── main.c
-│
+├── .gitignore
+├── LICENSE
 └── README.md
 
 
