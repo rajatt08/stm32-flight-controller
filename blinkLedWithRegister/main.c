@@ -2,7 +2,7 @@
 
 int main(void)
 {
-   RCCC->AHB1ENR |= (1<<3);           // BEFORE USING GPIOD, WE MUST ENABLE ITS CLOCK
+   RCC->AHB1ENR |= (1<<3);           // BEFORE USING GPIOD, WE MUST ENABLE ITS CLOCK
    RCC->AHB1ENR |= (1<<0);            // // BEFORE USING GPIOA, WE MUST ENABLE ITS CLOCK
   GPIOD->MODER &= ~(3 << (12*2));     // we are clearing first
   GPIOD->MODER |=  (1 << (12*2));     // now for output data register we have to give 01
